@@ -30,6 +30,8 @@ export class Empresa{    // Clase para representar una empresa
     agregarImportaciones(Importaciones) {
         this.importacion.push(importacion);
     }
+
+}
     // Clase para representar una importación
     export class Importacion extends Empresa {
     
@@ -55,4 +57,4 @@ export class Empresa{    // Clase para representar una empresa
 }
     }
     
-    }
+    
