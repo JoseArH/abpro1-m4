@@ -2,25 +2,48 @@ body{
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-image: url('../img/aduana.jpg');
+    background-image: url('../css/img/aduana.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 50px;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
 }
 
 .resumen{
-    background-color: rgba(255, 255, 255, 0.7); 
+    background-color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
     border-radius: 10px
 }
 
 form{
-    background: #fff;
+    background: #ffffff62;
+    backdrop-filter: blur(10px);
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 0 10px rgb(21, 21, 21, 0.1);
-    width: 300px;
+    width: 180px;
     border-radius: 10px;
+    margin-left: 10px;
 }
+
 
 label{
     display: block;
     margin: 10px 0 5px;
+}
+
+.resumen{
+    background: #ffffff62;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgb(21, 21, 21, 0.1);
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 10px;
 }
